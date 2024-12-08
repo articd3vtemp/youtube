@@ -14,7 +14,7 @@ if st.button("Start Streaming"):
     # os.system("tar -xvf ffmpeg-release-amd64-static.tar.xz")
     os.system("ls")
     os.system("pwd")
-    os.system("./ffmpeg-7.0.2-amd64-static/ffmpeg -version")
+    os.system("cd ffmpeg-7.0.2-amd64-static && ./ffmpeg -version")
     
     # ffmpeg_path = "/home/appuser/.local/bin"  # Path to the local FFmpeg binary
     st.write("Streaming started!")
