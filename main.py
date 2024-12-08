@@ -11,5 +11,6 @@ if st.button("Start Streaming"):
     os.system("pip install ffmpeg-python")
     os.system("ls")
     os.system("curl -O https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz")
+    os.system("ls")
     # ffmpeg_path = "/home/appuser/.local/bin"  # Path to the local FFmpeg binary
     st.write("Streaming started!")
